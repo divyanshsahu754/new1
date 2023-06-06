@@ -14,7 +14,7 @@
    
 }
 .field1{
-   margin-top: 1rem; 
+   margin-top: 2rem; 
    border:1px solid whitesmoke;
     background-color: whitesmoke;
     width: 12rem;
@@ -22,6 +22,9 @@
     height: 2rem;
     margin-right: 1rem;
     border-radius: .5rem;
+    
+    
+    
 }
 .field{
     border:1px solid whitesmoke;
@@ -31,6 +34,7 @@
     height: 2rem;
     margin-right: 1rem;
     border-radius: .5rem;
+    margin-left:2rem;
 
 
 }
@@ -46,9 +50,18 @@
     display: flex;
     justify-content: space-around;
     height: 100px;
+    
+    font-weight: 800;
+    
+
+}
+.logo{
+    margin: auto;
+    margin-top: 2rem;
     color :#39FF14;
     font-weight: 800;
-
+    font-size:x-large;
+    
 }
 .moreoption{
     background-color: transparent;

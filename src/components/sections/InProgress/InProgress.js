@@ -4,6 +4,7 @@ import {SlOptions} from "react-icons/sl"
 import {RiDeleteBin5Fill} from "react-icons/ri"
 import {BiCommentAdd} from "react-icons/bi" 
 import { ClockLoader } from 'react-spinners'
+import {GiProgression} from "react-icons/gi"
 
 
 export default function InProgress() {
@@ -72,17 +73,13 @@ export default function InProgress() {
      </div>
      :
      <div className={styles.container}>
+      <GiProgression className={styles.logo}/>
+      
         <div className={styles.container1}>    
-      <input placeHolder="In Progress "
-      className={styles.field1}
-      />
+      <input placeholder="In Progress " className={styles.field1}></input>
       <button className={styles.moreoption}><SlOptions/></button>
       </div>
 
-        <div >
-                <input className={styles.field} type='text' onChange={handleChange} value={workinProgress} onKeyDown={handleEnter} placeholder='    + Add Task'></input>
-                <button onClick={handleAdd} className={styles.addbutton}> <BiCommentAdd/></button>
-        </div>
         <span className={styles.taskContainer}>
           {
         lis.map((ele,index)=>{
@@ -97,6 +94,11 @@ export default function InProgress() {
             
           )
         })}</span>
+        <div >
+                <input className={styles.field} type='text' onChange={handleChange} value={workinProgress} onKeyDown={handleEnter} placeholder='    + Add Task'></input>
+                <button onClick={handleAdd} className={styles.addbutton}> <BiCommentAdd/></button>
+        </div>
+        
         
         </div>
         
