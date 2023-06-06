@@ -1,0 +1,26 @@
+.Todolist{
+    border: 1rem solid whitesmoke;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: -2rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+.list{
+    border: 1px solid whitesmoke;
+    width: 12rem;
+    background-color: aliceblue;
+}
+.field{
+    margin-top: 1rem;
+    border: 1px solid whitesmoke;
+    background-color: aliceblue;
+    width: 12rem;
+}
+.field:focus{
+    outline: none;
+}
